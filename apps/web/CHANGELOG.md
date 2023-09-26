@@ -1,5 +1,20 @@
 # web
 
+## 0.3.3
+
+### Patch Changes
+
+- bad4331: test
+- 3eb573a: test automations
+- 2904a14: test
+- 6495d9a: test
+- Updated dependencies [bad4331]
+- Updated dependencies [3eb573a]
+- Updated dependencies [2904a14]
+- Updated dependencies [6495d9a]
+  - generated-wundergraph@0.3.3
+  - ui@0.3.3
+
 ## 0.3.2
 
 ### Patch Changes
