@@ -5,11 +5,12 @@
 This starter combines [WunderGraph](https://wundergraph.com/) Cloud with [Turborepo](https://github.com/vercel/turbo) to create an optimized monorepo experience for your WunderGraph application.
 
 ### Getting started locally
+(imported using yarn for now, pnpm and npm, have some issues)
 
 ```shell
-npm install
-npm run build
-npm run dev
+yarn install
+yarn build
+yarn dev
 ```
 
 Fetch `Germany (DE)` from your WunderGraph.
@@ -62,7 +63,3 @@ If you want to store your WunderGraph configuration in a separate directory e.g.
 }
 
 ```
-
-### Learn More
-
-Read the [Docs](https://wundergraph.com/docs).

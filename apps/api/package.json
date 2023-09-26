@@ -1,7 +1,8 @@
 {
   "name": "api",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "",
+  "private": true,
   "scripts": {
     "dev": "wunderctl up --wundergraph-dir .",
     "build": "wunderctl generate --wundergraph-dir .",
