@@ -8,4 +8,5 @@
 {#each data.countries_countries ?? [] as country}
 	<div>{country.name}</div>
 {/each}
+
 <MyCounterButton />

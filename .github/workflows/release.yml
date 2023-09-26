@@ -28,4 +28,4 @@ jobs:
         with:
           version: yarn changeset version
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASES }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
