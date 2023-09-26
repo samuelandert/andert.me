@@ -5,8 +5,8 @@
 	export let data: PageData;
 </script>
 
-<MyCounterButton />
-
 {#each data.countries_countries ?? [] as country}
 	<div>{country.name}</div>
 {/each}
+
+<MyCounterButton />
