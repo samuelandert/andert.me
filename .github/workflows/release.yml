@@ -1,31 +1,40 @@
-name: Release
+name: Publish Packages
 
 on:
   push:
     branches:
-      - main
-
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+      - master
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 18
+      - run: yarn
+      - run: yarn test
+
   release:
     name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v1
 
-      - name: Setup Node.js 18
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
           node-version: 18
 
       - name: Install Dependencies
         run: yarn
 
+      - name: Check for Changeset
+        run: yarn changeset status
+
       - name: Create Release Pull Request
-        uses: changesets/action@v1
-        with:
-          version: yarn changeset version
+        uses: changesets/action@master
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
