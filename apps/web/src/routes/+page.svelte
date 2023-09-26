@@ -9,4 +9,4 @@
 	<div>{country.name}</div>
 {/each}
 
-<!-- <MyCounterButton /> -->
+<MyCounterButton />
