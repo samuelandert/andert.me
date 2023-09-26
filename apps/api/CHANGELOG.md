@@ -1,5 +1,11 @@
 # api
 
+## 0.3.2
+
+### Patch Changes
+
+- ed2af1e: test
+
 ## 0.3.1
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # web
 
+## 0.3.2
+
+### Patch Changes
+
+- ed2af1e: test
+- Updated dependencies [ed2af1e]
+  - generated-wundergraph@0.3.2
+  - ui@0.3.2
+
 ## 0.3.1
 
 ### Patch Changes
