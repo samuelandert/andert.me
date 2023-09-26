@@ -1,5 +1,19 @@
 # web
 
+## 0.3.0
+
+### Minor Changes
+
+- e47df07: testing release workflow
+
+### Patch Changes
+
+- 21af844: testing release automation
+- Updated dependencies [21af844]
+- Updated dependencies [e47df07]
+  - generated-wundergraph@0.3.0
+  - ui@0.3.0
+
 ## 0.2.0
 
 ### Minor Changes

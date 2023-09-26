@@ -1,5 +1,15 @@
 # api
 
+## 0.3.0
+
+### Minor Changes
+
+- e47df07: testing release workflow
+
+### Patch Changes
+
+- 21af844: testing release automation
+
 ## 0.2.0
 
 ### Minor Changes
