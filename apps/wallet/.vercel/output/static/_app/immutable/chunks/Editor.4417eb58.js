@@ -1,0 +1,1 @@
+import{s as r,l as i,m as l,i as n,L as a,d as c}from"./scheduler.df63c2e8.js";import{S as m,i as d}from"./index.8a30a216.js";function f(o){let t;return{c(){t=i("Hello Earth")},l(e){t=l(e,"Hello Earth")},m(e,s){n(e,t,s)},p:a,i:a,o:a,d(e){e&&c(t)}}}class h extends m{constructor(t){super(),d(this,t,null,f,r,{})}}export{h as default};

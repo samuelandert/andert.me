@@ -1,0 +1,3 @@
+import{s,L as a}from"../chunks/scheduler.df63c2e8.js";import{S as i,i as m,b as c,d as p,m as u,a as l,t as f,e as d}from"../chunks/index.8a30a216.js";import _ from"../chunks/ComposeMy.aa5af980.js";const g={id:"Test",layout:{columns:"300px 1fr",areas:`
+			"left right"
+		`},children:[{id:"Todos",component:"Todos",slot:"right",queries:[{operation:"Countries",input:{filter:{code:{eq:"ES"}}}}]}]};function $(n){let t,o;return t=new _({props:{view:g}}),{c(){c(t.$$.fragment)},l(e){p(t.$$.fragment,e)},m(e,r){u(t,e,r),o=!0},p:a,i(e){o||(l(t.$$.fragment,e),o=!0)},o(e){f(t.$$.fragment,e),o=!1},d(e){d(t,e)}}}class q extends i{constructor(t){super(),m(this,t,null,$,s,{})}}export{q as component};
