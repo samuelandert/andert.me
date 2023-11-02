@@ -1,5 +1,11 @@
 # blog
 
+## 0.3.0
+
+### Minor Changes
+
+- c258a1e: Testing
+
 ## 0.2.2
 
 ### Patch Changes
