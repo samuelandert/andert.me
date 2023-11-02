@@ -1,5 +1,17 @@
 # wallet
 
+## 0.3.0
+
+### Minor Changes
+
+- c258a1e: Testing
+
+### Patch Changes
+
+- Updated dependencies [c258a1e]
+  - generated-wundergraph@0.3.0
+  - composer-import@1.8.0
+
 ## 0.2.2
 
 ### Patch Changes
