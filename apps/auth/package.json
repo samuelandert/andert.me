@@ -1,0 +1,22 @@
+{
+  "name": "directus-api-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx tsc && node dist/main.js"
+  },
+  "dependencies": {
+    "@directus/sdk": "^13.0.1",
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.20",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/node": "^20.8.10",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.2.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
