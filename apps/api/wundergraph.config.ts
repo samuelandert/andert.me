@@ -44,4 +44,13 @@ configureWunderGraphApplication({
   options: {
     publicNodeUrl: new EnvironmentVariable("PUBLIC_NODE_URL", 'http://localhost:9991'),
   },
+  authentication: {
+    tokenBased: {
+      providers: [
+        {
+          userInfoEndpoint: 'http://localhost:8080/verify_access_token'
+        },
+      ],
+    },
+  },
 });
