@@ -1,7 +1,7 @@
 <script>
 	import { getDrawerStore } from '@skeletonlabs/skeleton';
 	const drawerStore = getDrawerStore();
-	import { view } from '$lib/views/Form';
+	import { view } from '$lib/views/Login';
 
 	function openDrawer() {
 		drawerStore.open({
