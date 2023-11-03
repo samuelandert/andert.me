@@ -111,7 +111,6 @@ app.get('/login/:challenge', async (req: any, res: any) => {
     }
 });
 
-
 const server = app.listen("8080");
 server.on('listening', () => {
     console.log("listening on 8080");
