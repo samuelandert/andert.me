@@ -48,7 +48,7 @@ configureWunderGraphApplication({
     tokenBased: {
       providers: [
         {
-          userInfoEndpoint: 'http://localhost:8080/verify_access_token',
+          userInfoEndpoint: 'http://localhost:8080/verify_access_token'
         },
       ],
     },
